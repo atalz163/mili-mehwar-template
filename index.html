@@ -22,6 +22,8 @@
       
     </head>
     <body class="d-flex flex-column h-100">
+        <div id="fb-root"></div>
+        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v19.0" nonce="fiCpGxQP"></script>
         <main class="flex-shrink-0">
             <!-- Navigation-->
             <nav class="navbar navbar-expand-lg navbar-dark bg-info">
@@ -30,31 +32,34 @@
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-                            <li class="nav-item"><a class="nav-link" href="pricing.html">Pricing</a></li>
-                            <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
+                            <li class="nav-item"><a class="nav-link" href="index.html">Annoucements</a></li>
+                            <li class="nav-item"><a class="nav-link" href="about.html">Articles</a></li>
+                            <li class="nav-item"><a class="nav-link" href="about.html">Gallery</a></li>
+                            <!-- <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li> -->
+  
+                           
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" id="navbarDropdownBlog" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Blog</a>
+                                <a class="nav-link dropdown-toggle" id="navbarDropdownBlog" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
                                 <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">
                                     <li><a class="dropdown-item" href="blog-home.html">Blog Home</a></li>
                                     <li><a class="dropdown-item" href="blog-post.html">Blog Post</a></li>
                                 </ul>
                             </li>
-                            <li class="nav-item dropdown">
+                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+
+                            <!-- <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" id="navbarDropdownPortfolio" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Portfolio</a>
                                 <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownPortfolio">
                                     <li><a class="dropdown-item" href="portfolio-overview.html">Portfolio Overview</a></li>
                                     <li><a class="dropdown-item" href="portfolio-item.html">Portfolio Item</a></li>
                                 </ul>
-                            </li>
+                            </li> -->
                         </ul>
                     </div>
                 </div>
             </nav>
             <!-- Header-->
-            <header class="bg-dark py-5">
+            <header class="bg-primary py-5">
                 <div class="container px-5">
                     <div class="row gx-5 align-items-center justify-content-center">
                         <div class="col-lg-8 col-xl-7 col-xxl-6">
@@ -99,7 +104,7 @@
                     <div class="row gx-5 justify-content-center">
                         <div class="col-lg-8 col-xl-6">
                             <div class="text-center">
-                                <h2 class="fw-bolder">From our blog</h2>
+                                <h2 class="fw-bolder">Annoucements,Reports,Messages</h2>
                                 <p class="lead fw-normal text-muted mb-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque fugit ratione dicta mollitia. Officiis ad.</p>
                             </div>
                         </div>
@@ -166,11 +171,11 @@
                 </div>
             </section>
 
-            <!-- BookClubs preview section-->
+            <!-- Articles preview section-->
             <div class="py-5 bg-light">
                 <div class="container px-5 my-5">
                     <div class="text-center">
-                        <h2 class="fw-bolder">From our blog</h2>
+                        <h2 class="fw-bolder">Articles</h2>
                         <p class="lead fw-normal text-muted mb-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque fugit ratione dicta mollitia. Officiis ad.</p>
                     </div>
                     <div class="row">
@@ -192,7 +197,48 @@
                       </div>
                       </div>
             </div>
+   <!-- Team members section-->
+   <section class="py-5">
+    <div class="container px-5 my-5">
+        <div class="text-center">
+            <h2 class="fw-bolder">Our team</h2>
+            <p class="lead fw-normal text-muted mb-5">Dedicated to quality and your success</p>
+        </div>
+        <div class="row gx-5 row-cols-1 row-cols-sm-2 row-cols-xl-4 justify-content-center">
+            <div class="col mb-5 mb-5 mb-xl-0">
+                <div class="text-center">
+                    <img class="img-fluid rounded-circle mb-4 px-4" src="https://dummyimage.com/150x150/ced4da/6c757d" alt="..." />
+                    <h5 class="fw-bolder">Ibbie Eckart</h5>
+                    <div class="fst-italic text-muted">Founder &amp; CEO</div>
+                </div>
+            </div>
+            <div class="col mb-5 mb-5 mb-xl-0">
+                <div class="text-center">
+                    <img class="img-fluid rounded-circle mb-4 px-4" src="https://dummyimage.com/150x150/ced4da/6c757d" alt="..." />
+                    <h5 class="fw-bolder">Arden Vasek</h5>
+                    <div class="fst-italic text-muted">CFO</div>
+                </div>
+            </div>
+            <div class="col mb-5 mb-5 mb-sm-0">
+                <div class="text-center">
+                    <img class="img-fluid rounded-circle mb-4 px-4" src="https://dummyimage.com/150x150/ced4da/6c757d" alt="..." />
+                    <h5 class="fw-bolder">Toribio Nerthus</h5>
+                    <div class="fst-italic text-muted">Operations Manager</div>
+                </div>
+            </div>
+            <div class="col mb-5">
+                <div class="text-center">
+                    <img class="img-fluid rounded-circle mb-4 px-4" src="https://dummyimage.com/150x150/ced4da/6c757d" alt="..." />
+                    <h5 class="fw-bolder">Malvina Cilla</h5>
+                    <div class="fst-italic text-muted">CTO</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
+
+        <section class="py-5 bg-light">
         <!-- Gallery section-->
           <div class="container px-5 my-5">
         <div class="row gx-5 justify-content-center">
@@ -250,99 +296,59 @@
             
         </section>
              
-         <!-- Team members section-->
-         <section class="py-5 bg-light">
-            <div class="container px-5 my-5">
-                <div class="text-center">
-                    <h2 class="fw-bolder">Our team</h2>
-                    <p class="lead fw-normal text-muted mb-5">Dedicated to quality and your success</p>
-                </div>
-                <div class="row gx-5 row-cols-1 row-cols-sm-2 row-cols-xl-4 justify-content-center">
-                    <div class="col mb-5 mb-5 mb-xl-0">
-                        <div class="text-center">
-                            <img class="img-fluid rounded-circle mb-4 px-4" src="https://dummyimage.com/150x150/ced4da/6c757d" alt="..." />
-                            <h5 class="fw-bolder">Ibbie Eckart</h5>
-                            <div class="fst-italic text-muted">Founder &amp; CEO</div>
-                        </div>
-                    </div>
-                    <div class="col mb-5 mb-5 mb-xl-0">
-                        <div class="text-center">
-                            <img class="img-fluid rounded-circle mb-4 px-4" src="https://dummyimage.com/150x150/ced4da/6c757d" alt="..." />
-                            <h5 class="fw-bolder">Arden Vasek</h5>
-                            <div class="fst-italic text-muted">CFO</div>
-                        </div>
-                    </div>
-                    <div class="col mb-5 mb-5 mb-sm-0">
-                        <div class="text-center">
-                            <img class="img-fluid rounded-circle mb-4 px-4" src="https://dummyimage.com/150x150/ced4da/6c757d" alt="..." />
-                            <h5 class="fw-bolder">Toribio Nerthus</h5>
-                            <div class="fst-italic text-muted">Operations Manager</div>
-                        </div>
-                    </div>
-                    <div class="col mb-5">
-                        <div class="text-center">
-                            <img class="img-fluid rounded-circle mb-4 px-4" src="https://dummyimage.com/150x150/ced4da/6c757d" alt="..." />
-                            <h5 class="fw-bolder">Malvina Cilla</h5>
-                            <div class="fst-italic text-muted">CTO</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+      
 
-                <!-- Annoucements or book clubs etc -->
-            <section class="py-5 ">
-
-                <div class="container px-5">
-                    <div class="row gx-5">
-                        <div class="col-xl-8">
-                            <h2 class="fw-bolder fs-5 mb-4">Annoucements</h2>
-                            <!-- News item-->
-                            <div class="mb-4">
-                                <div class="small text-muted">May 12, 2023</div>
-                                <a class="link-dark" href="#!"><h3>Start Bootstrap releases Bootstrap 5 updates for templates and themes</h3></a>
+                <!-- Extra Content -->
+                <section class="py-5">
+                    <div class="container px-5">
+                        <div class="row gx-5">
+                            <div class="col-xl-6">
+                                <h2 class="fw-bolder fs-5 mb-4">Book Clubs Reports</h2>
+                                <!-- News item-->
+                                <div class="mb-4">
+                                    <div class="small text-muted">May 12, 2023</div>
+                                    <a class="link-dark" href="#!">
+                                        <h3>Start Bootstrap releases Bootstrap 5 updates for templates and themes</h3>
+                                    </a>
+                                </div>
                             </div>
-                            <!-- News item-->
-                            <div class="mb-5">
-                                <div class="small text-muted">May 5, 2023</div>
-                                <a class="link-dark" href="#!"><h3>Bootstrap 5 has officially landed</h3></a>
-                            </div>
-                            <!-- News item-->
-                            <div class="mb-5">
-                                <div class="small text-muted">Apr 21, 2023</div>
-                                <a class="link-dark" href="#!"><h3>This is another news article headline, but this one is a little bit longer</h3></a>
-                            </div>
-                            <div class="text-end mb-5 mb-xl-0">
-                                <a class="text-decoration-none" href="#!">
-                                    More news
-                                    <i class="bi bi-arrow-right"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-xl-4">
-                            <div class="card border-0 h-100">
-                                <div class="card-body p-4 bg-">
-                                    <div class="d-flex h-100 align-items-center justify-content-center">
-                                        <div class="text-center">
-                                            <div class="h6 fw-bolder">Contact</div>
-                                            <p class="text-muted mb-4">
-                                                For press inquiries, email us at
-                                                <br />
-                                                <a href="#!">press@domain.com</a>
-                                            </p>
-                                            <div class="h6 fw-bolder">Follow us</div>
-                                            <a class="fs-5 px-2 link-dark" href="#!"><i class="bi-twitter"></i></a>
-                                            <a class="fs-5 px-2 link-dark" href="#!"><i class="bi-facebook"></i></a>
-                                            <a class="fs-5 px-2 link-dark" href="#!"><i class="bi-linkedin"></i></a>
-                                            <a class="fs-5 px-2 link-dark" href="#!"><i class="bi-youtube"></i></a>
+                            <div class="col-xl-6">
+                                <div class="row gx-5">
+                                    <div class="col-6">
+                                        <div class="card border-0 h-100">
+                                            <div class="card-body p-4 bg-">
+                                                <div class="text-center">
+                                                    <div class="h6 fw-bolder">Twitter Feed</div>
+                                                    <p class="text-muted mb-4">
+                                                        For press inquiries, email us at
+                                                        <br>
+                                                        <a class="twitter-timeline" data-width="" data-height="500" href="https://twitter.com/XDevelopers?ref_src=twsrc%5Etfw">Tweets by XDevelopers</a>
+                                                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="card border-0 h-100">
+                                            <div class="card-body p-4 bg-">
+                                                <div class="text-center">
+                                                    <div class="h6 fw-bolder">Facebook Feed</div>
+                                                    <div class="fb-page" data-href="https://www.facebook.com/MilliMehwar" data-tabs="timeline" data-width="300" data-height="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+                                                        <blockquote cite="https://www.facebook.com/MilliMehwar" class="fb-xfbml-parse-ignore">
+                                                            <a href="https://www.facebook.com/MilliMehwar">‎ملي محور ګوند‎</a>
+                                                        </blockquote>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </section>
+                </section>
+                
 
 
         </main>
