@@ -16,6 +16,28 @@
 .item img {
   height: 300px;
 }
+
+.section-header {
+  font-size: 2.125rem;
+  margin-bottom: 1.875rem;
+  border-left: 0.3125rem solid #01a3eb;
+  padding-left: 1.25rem;
+  text-align: left;
+}
+.list-group {
+  -webkit-box-shadow: 0 0 0.125rem 0 rgba(185,185,185,0.6);
+  -moz-box-shadow: 0 0 0.125rem 0 rgba(185, 185, 185, 0.6);
+  box-shadow: 0 0 0.125rem 0 rgba(185,185,185,0.6);
+  margin-bottom: 0.9375rem;
+  text-align: left;
+}
+.list-group .list-group-item-action:hover strong {
+  color: #003699;
+}
+.list-group .list-group-item-action strong {
+  font-weight: 500;
+  color: #002366;
+}
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
