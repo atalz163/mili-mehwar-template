@@ -13,6 +13,59 @@
 
  /* Custom styling for the carousel */
 /* Custom styling for the container */
+
+
+/* CSS for the back-to-top button */
+
+
+.langs-nav{
+  margin-left: 1.875rem;
+}
+.top-icons{
+  padding: 0.5rem;
+  background-color: #009fe6;
+}
+.top-bar {
+  padding: .5rem 0;
+  background: #eee;
+}
+
+
+
+.back-to-top {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  width: 40px;
+  height: 40px;
+  background: #01a3eb;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
+}
+
+.back-to-top i {
+  font-size: 20px;
+}
+
+/* Added styles to center the icon */
+.back-to-top i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+#teamphoto{
+  width: auto;
+  height: 250px;
+}
 .item img {
   height: 300px;
 }
@@ -630,7 +683,7 @@ progress {
 
 .img-fluid {
   max-width: 100%;
-  height: 220px;
+  height: auto;
 }
 
 .img-thumbnail {
@@ -8294,7 +8347,7 @@ textarea.form-control-lg {
 }
 
 .rounded-circle {
-  /* border-radius: 50% !important; */
+  border-radius: 50% !important;
 }
 
 .rounded-pill {
